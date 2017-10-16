@@ -38,7 +38,7 @@ function draw() {
   for (var i = 0; i < 20000; i++) {
     var x = int(random(width));
     var y = int(random(height));
-    var nimg=int(11*noise(x*.002+cos(frameCount*.0001), y*.002+sin(frameCount*.001), sin(frameCount*.01)));
+    var nimg=int(10*noise(x*.002+cos(frameCount*.0001), y*.002+sin(frameCount*.001), sin(frameCount*.01)));
     for (var k = 0; k < 4; k++) {
       var col=pixels[k + 4 * (y * width + x)] ;
       pixels[k + 4 * (y * width + x)] =int(.5*portraits[nimg].pixels[k+4* (y * width + x)]+.5*col);
