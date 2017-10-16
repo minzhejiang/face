@@ -1,3 +1,4 @@
+var img1, img2, img3, img4, img5, img6,img7,img8,img9,img10,img11;
 var portraits = [img1, img2, img3, img4, img5, img6,img7,img8,img9,img10,img11];
 var hold=false;
 var blured=false;
