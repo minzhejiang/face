@@ -3,11 +3,11 @@ var img1, img2, img3, img4, img5;
 var hold=false;
 var blured=false;
 function preload() {
-  img1 = loadImage("img/pic1.png");
-  img2 = loadImage("img/pic2.png");
-  img3 = loadImage("img/pic3.png");
-  img4 = loadImage("img/pic4.png");
-  img5 = loadImage("img/pic5.png");
+  img1 = loadImage("pic1.png");
+  img2 = loadImage("pic2.png");
+  img3 = loadImage("pic3.png");
+  img4 = loadImage("pic4.png");
+  img5 = loadImage("pic5.png");
   
 }
 function setup() {
